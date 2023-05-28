@@ -78,6 +78,15 @@ color: #fff;
     color: #fff;
 }
 /* header Section ends here */
+/* banner section start here */
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+    height: 700px;
+}
+/* Banner section ends here */
 /* About section start here */
 #about{
 width: 100%;
@@ -200,3 +209,42 @@ padding: 50px 0px;
 }
 
 /* Services section end here */
+/* AMENTITES section start here */
+#amentites{
+    width: 100%;
+    background:var(--primary-color);
+    padding: 50px 0px ;
+    }
+.amentites-inner{
+    max-width: 1320px;
+    margin: auto;
+}
+.amentites-inner>h3{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.amentites-content{
+    display:flex;
+    justify-content: space-between;
+}
+.amentites-content>.amentites-list{
+    flex-basis: 22%;
+    background-color: #fff;
+    padding: 40px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.amentites-list img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.amentites-list span{
+    font-size: 20px;
+}
+/* Amentites section ends here */
