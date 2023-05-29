@@ -9,6 +9,9 @@
 a{
     text-decoration: none;
 }
+.clear{
+    clear: both;
+}
 .main{
     width: 100%;
 }
@@ -75,10 +78,26 @@ color: #fff;
     color: #fff;
 }
 /* header Section ends here */
+/* banner section start here */
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+    height: 700px;
+}
+/* Banner section ends here */
 /* About section start here */
 #about{
 width: 100%;
 padding: 50px 0px;
+}
+#about>h3{
+    font-size: 40px;
+    text-align: center;
+    columns: #282828;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 .about-inner{
     max-width: 1320px;
@@ -120,3 +139,179 @@ padding: 50px 0px;
     color: #fff;
 }
 /* About Section ends here */
+/* Service section start here */
+#services{
+    width: 100%;
+    padding: 30px 0px;
+}
+.services-inner{
+    max-width: 1320px;
+    margin: auto;
+}
+.services-inner>h3{
+    font-size: 40px;
+    text-align: center;
+    columns: #282828;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.services-content-left{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    padding-right: 50px;
+    border-right: 1px solid var(--primary-color);
+}
+.service-content-left-img{
+    background-image: url(../images/social-media-marketing.jpg);
+    background-size: cover;
+    width: 60%;
+    height: 400px;
+}
+.service-content-describe{
+    display: inline-block;
+    width: 35%; 
+}
+.service-content-describe h2{
+    color: var(--primary-color);
+    font-size: 30px;
+  font-weight: bold;
+    margin: 20px 0px;
+}
+.service-content-describe p{
+    line-height: 26px;
+    font-size: 17px;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+}
+
+.services-content-right h4{
+    font-size: 20px;
+
+}
+.services-content-right p{
+    font-size: 15px;
+    color: #9b9b9b;
+}
+.services-content-right{
+    float: right;
+    }
+.services-content-right-content{
+    box-shadow: 0px 0px 10px 2px #ccc;
+    width: 200px;
+    margin-bottom: 20px;
+  
+}
+
+.services-content-right img{
+    width: 200px;
+}
+
+/* Services section end here */
+/* AMENTITES section start here */
+#amentites{
+    width: 100%;
+    background:var(--primary-color);
+    padding: 50px 0px ;
+    }
+.amentites-inner{
+    max-width: 1320px;
+    margin: auto;
+}
+.amentites-inner>h3{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.amentites-content{
+    display:flex;
+    justify-content: space-between;
+}
+.amentites-content>.amentites-list{
+    flex-basis: 22%;
+    background-color: #fff;
+    padding: 40px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.amentites-list img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.amentites-list span{
+    font-size: 20px;
+}
+/* Amentites section ends here */
+/* gallery Section start here */
+#gallery{
+    width: 100%;
+    padding: 50px 0px;
+}
+.gallery-inner{
+    max-width: 1320px;
+    margin: auto;
+}
+.gallery-inner>h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.gallery-img{
+    display: block;
+   }
+.gallery-img img{
+    width: 30%;
+    margin: 1%;
+}
+/* gallery section ends here */
+/* footer Section start here */
+#footer{
+    width: 100%;
+    background:var(--primary-color);
+}
+.footer-inner{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: #fff;
+}
+.footer-logo{
+    flex-basis: 30%;
+}
+.footer-logo>h1{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-logo p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom:20px;
+}
+.footer-menu{
+    flex-basis: 20%;
+}
+.footer-menu>h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer-menu ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.footer-menu ul li a{
+    color: #fff;
+}
+
+/* Footer Section ends here */
