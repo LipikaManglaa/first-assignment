@@ -248,3 +248,26 @@ padding: 50px 0px;
     font-size: 20px;
 }
 /* Amentites section ends here */
+/* gallery Section start here */
+#gallery{
+    width: 100%;
+    padding: 50px 0px;
+}
+.gallery-inner{
+    max-width: 1320px;
+    margin: auto;
+}
+.gallery-inner>h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.gallery-img{
+    display: block;
+   }
+.gallery-img img{
+    width: 30%;
+    margin: 1%;
+}
+/* gallery section ends here */
